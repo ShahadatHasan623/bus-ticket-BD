@@ -5,7 +5,7 @@
     "description": "Express route from New York to Boston. Passenger confirmed for 09:00 AM departure.",
     "customer": "Alice Henderson",
     "priority": "Low",
-    "status": "Closed",
+    "status": "In Progress",
     "createdAt": "2026-03-01T08:30:00Z",
     "resolvedBy": "Agent Sarah"
   },
@@ -15,7 +15,7 @@
     "description": "Customer requesting a full refund due to a family emergency. Trip scheduled for tomorrow.",
     "customer": "Marcus Thorne",
     "priority": "High",
-    "status": "Resolved",
+    "status": "In Progress",
     "createdAt": "2026-03-02T14:15:00Z",
     "resolvedAt": "2026-03-02T18:00:00Z",
     "resolvedBy": "Manager Michael"
@@ -46,7 +46,7 @@
     "description": "Bus #882 reporting AC failure. Needs immediate reassignment for the 1 PM trip.",
     "customer": "Internal - Fleet Mgmt",
     "priority": "Critical",
-    "status": "Resolved",
+    "status": "In Progress",
     "createdAt": "2026-03-03T10:05:00Z",
     "resolvedAt": "2026-03-03T11:30:00Z",
     "resolvedBy": "Tech Lead John"
@@ -77,7 +77,7 @@
     "description": "Credit card charged but no ticket issued. Customer needs manual validation.",
     "customer": "Kevin Park",
     "priority": "High",
-    "status": "Resolved",
+    "status": "In Progress",
     "createdAt": "2026-03-03T14:55:00Z",
     "resolvedAt": "2026-03-03T15:45:00Z",
     "resolvedBy": "Billing Support Sofia"
@@ -88,7 +88,7 @@
     "description": "Passenger requires wheelchair ramp access for the cross-country route.",
     "customer": "Linda Grier",
     "priority": "Medium",
-    "status": "Closed",
+    "status": "Open",
     "createdAt": "2026-03-03T15:30:00Z",
     "resolvedBy": "Agent Sarah"
   },
@@ -98,7 +98,7 @@
     "description": "Route 12 was 45 minutes late. Requesting a voucher for future travel.",
     "customer": "Brian Smith",
     "priority": "Low",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-03-03T16:12:00Z",
     "resolvedBy": "Agent Emily"
   }
