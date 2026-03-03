@@ -1,6 +1,6 @@
 import React from "react";
 
-const Task = ({ customers }) => {
+const Task = ({ customers ,handleResolvedTask }) => {
   return (
     <div>
       <h1 className="text-xl font-bold">Task Status</h1>
@@ -11,7 +11,7 @@ const Task = ({ customers }) => {
           {customers.map((task) => (
             <div key={task.id} className="bg-[#FFFFFF] p-5 my-3 rounded-xl space-y-2">
               <p>{task.title}</p>
-              <button className="btn btn-success w-full">Complete</button>
+              <button onClick={()=>handleResolvedTask(task)} className="btn btn-success w-full">Complete</button>
             </div>
           ))}
         </div>

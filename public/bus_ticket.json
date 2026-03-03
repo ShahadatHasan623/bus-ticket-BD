@@ -6,7 +6,8 @@
     "customer": "Alice Henderson",
     "priority": "Low",
     "status": "Closed",
-    "createdAt": "2026-03-01T08:30:00Z"
+    "createdAt": "2026-03-01T08:30:00Z",
+    "resolvedBy": "Agent Sarah"
   },
   {
     "id": "TKT-1002",
@@ -14,8 +15,10 @@
     "description": "Customer requesting a full refund due to a family emergency. Trip scheduled for tomorrow.",
     "customer": "Marcus Thorne",
     "priority": "High",
-    "status": "Open",
-    "createdAt": "2026-03-02T14:15:00Z"
+    "status": "Resolved",
+    "createdAt": "2026-03-02T14:15:00Z",
+    "resolvedAt": "2026-03-02T18:00:00Z",
+    "resolvedBy": "Manager Michael"
   },
   {
     "id": "TKT-1003",
@@ -24,7 +27,8 @@
     "customer": "Sarah Jenkins",
     "priority": "Medium",
     "status": "In Progress",
-    "createdAt": "2026-03-02T16:45:00Z"
+    "createdAt": "2026-03-02T16:45:00Z",
+    "resolvedBy": "Agent Rahim"
   },
   {
     "id": "TKT-1004",
@@ -33,7 +37,8 @@
     "customer": "David Vu",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-03-03T09:10:00Z"
+    "createdAt": "2026-03-03T09:10:00Z",
+    "resolvedBy": "Agent Emily"
   },
   {
     "id": "TKT-1005",
@@ -41,8 +46,10 @@
     "description": "Bus #882 reporting AC failure. Needs immediate reassignment for the 1 PM trip.",
     "customer": "Internal - Fleet Mgmt",
     "priority": "Critical",
-    "status": "In Progress",
-    "createdAt": "2026-03-03T10:05:00Z"
+    "status": "Resolved",
+    "createdAt": "2026-03-03T10:05:00Z",
+    "resolvedAt": "2026-03-03T11:30:00Z",
+    "resolvedBy": "Tech Lead John"
   },
   {
     "id": "TKT-1006",
@@ -51,7 +58,8 @@
     "customer": "Elena Rodriguez",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-03-03T11:20:00Z"
+    "createdAt": "2026-03-03T11:20:00Z",
+    "resolvedBy": "Support Sofia"
   },
   {
     "id": "TKT-1007",
@@ -60,7 +68,8 @@
     "customer": "Westside High School",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-03-03T13:40:00Z"
+    "createdAt": "2026-03-03T13:40:00Z",
+    "resolvedBy": "Agent Rahim"
   },
   {
     "id": "TKT-1008",
@@ -68,8 +77,10 @@
     "description": "Credit card charged but no ticket issued. Customer needs manual validation.",
     "customer": "Kevin Park",
     "priority": "High",
-    "status": "In Progress",
-    "createdAt": "2026-03-03T14:55:00Z"
+    "status": "Resolved",
+    "createdAt": "2026-03-03T14:55:00Z",
+    "resolvedAt": "2026-03-03T15:45:00Z",
+    "resolvedBy": "Billing Support Sofia"
   },
   {
     "id": "TKT-1009",
@@ -78,7 +89,8 @@
     "customer": "Linda Grier",
     "priority": "Medium",
     "status": "Closed",
-    "createdAt": "2026-03-03T15:30:00Z"
+    "createdAt": "2026-03-03T15:30:00Z",
+    "resolvedBy": "Agent Sarah"
   },
   {
     "id": "TKT-1010",
@@ -87,6 +99,7 @@
     "customer": "Brian Smith",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-03-03T16:12:00Z"
+    "createdAt": "2026-03-03T16:12:00Z",
+    "resolvedBy": "Agent Emily"
   }
 ]
