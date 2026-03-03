@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import Footer from "./components/Footer/Footer";
 
 const busTicketFetch = async () => {
-  const res = await fetch("../public/bus_ticket.json");
+  const res = await fetch("/bus_ticket.json")
   return res.json();
 };
 
