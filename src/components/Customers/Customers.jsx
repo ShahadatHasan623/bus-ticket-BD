@@ -1,11 +1,13 @@
 import React, { use } from "react";
 import Customer from "../Customer/Customer";
+import { toast } from "react-toastify";
 
 const Customers = ({ ticket,customers,setCustomers}) => {
   const busTicket = use(ticket);
   const handleAddTask =(customer)=>{
       const newCustomer =[...customers,customer]
       setCustomers(newCustomer)
+      toast.success('customers task added')
   }
   return (
     <div className="my-10 md:px-0 px-5">

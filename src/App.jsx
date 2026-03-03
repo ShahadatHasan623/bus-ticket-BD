@@ -4,6 +4,8 @@ import Booking from "./components/Booking/Booking";
 import Customers from "./components/Customers/Customers";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
+import { toast } from "react-toastify";
+import Footer from "./components/Footer/Footer";
 
 const busTicketFetch = async () => {
   const res = await fetch("../public/bus_ticket.json");
@@ -20,6 +22,7 @@ function App() {
     setCustomers(remainingCustomers);
     const newResolved = [...resolved, task];
     setResolved(newResolved);
+    toast.success("Complete Task")
   };
 
   return (
@@ -46,6 +49,7 @@ function App() {
           ></Booking>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

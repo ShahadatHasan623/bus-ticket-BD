@@ -8,7 +8,9 @@ const Resolved = ({resolved}) => {
                 resolved.length === 0 ? <p>No resolved tasks yet.</p>:<div>
                     {
                         resolved.map(resolve=><div key={resolve.id}>
-                            <p>{resolve.resolvedBy}</p>
+                            <ol>
+                                <li>{resolve.resolvedBy}</li>
+                            </ol>
                         </div>)
                     }
                 </div>
