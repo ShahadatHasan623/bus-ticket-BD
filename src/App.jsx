@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Booking from "./components/Booking/Booking";
 import Customers from "./components/Customers/Customers";
@@ -12,18 +12,20 @@ const busTicketFetch = async()=>{
 
 const ticket =busTicketFetch()
 function App() {
+
+  const [customers,setCustomers] =useState([])
   return (
     <div className="bg-slate-100 min-h-screen">
       <Navbar></Navbar>
-      <Home></Home>
+      <Home customers={customers}></Home>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-5 max-w-7xl mx-auto">
         <div className="md:col-span-9 ">
           <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-             <Customers ticket={ticket}></Customers>
+             <Customers customers={customers} setCustomers={setCustomers} ticket={ticket}></Customers>
           </Suspense>
         </div>
         <div className="md:col-span-3">
-          <Booking></Booking>
+          <Booking customers={customers}></Booking>
         </div>
       </div>
     </div>

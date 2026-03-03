@@ -2,13 +2,13 @@ import React from "react";
 import { BiCalendar } from "react-icons/bi";
 
 
-const Customer = ({ ticket }) => {
+const Customer = ({ ticket,handleAddTask }) => {
    const {id,title,description,customer,priority,status,createdAt}=ticket
    const priorityColor = ticket.priority === 'High' || ticket.priority === 'Critical' 
     ? 'text-red-500' 
     : 'text-gray-500';
   return (
-    <div className=" bg-white rounded-xl shadow-sm border border-gray-100 p-5 font-sans">
+    <div onClick={()=>handleAddTask(ticket)} className=" bg-white rounded-xl shadow-sm border border-gray-100 p-5 font-sans">
       {/* Header Section: Title and Status */}
       <div className="flex justify-between items-start mb-3">
         <h3 className="text-lg font-bold text-slate-800 leading-tight">
