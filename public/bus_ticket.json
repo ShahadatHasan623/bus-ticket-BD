@@ -1,0 +1,92 @@
+[
+  {
+    "id": "TKT-1001",
+    "title": "Booking Confirmation - Seat 12A",
+    "description": "Express route from New York to Boston. Passenger confirmed for 09:00 AM departure.",
+    "customer": "Alice Henderson",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-01T08:30:00Z"
+  },
+  {
+    "id": "TKT-1002",
+    "title": "Refund Request - Trip Cancellation",
+    "description": "Customer requesting a full refund due to a family emergency. Trip scheduled for tomorrow.",
+    "customer": "Marcus Thorne",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02T14:15:00Z"
+  },
+  {
+    "id": "TKT-1003",
+    "title": "Lost Luggage Inquiry",
+    "description": "Black Samsonite suitcase left in the overhead compartment on Route 402.",
+    "customer": "Sarah Jenkins",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T16:45:00Z"
+  },
+  {
+    "id": "TKT-1004",
+    "title": "Seat Change Request",
+    "description": "Wants to move from aisle to window seat for the night bus to Chicago.",
+    "customer": "David Vu",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03T09:10:00Z"
+  },
+  {
+    "id": "TKT-1005",
+    "title": "Emergency Maintenance Alert",
+    "description": "Bus #882 reporting AC failure. Needs immediate reassignment for the 1 PM trip.",
+    "customer": "Internal - Fleet Mgmt",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T10:05:00Z"
+  },
+  {
+    "id": "TKT-1006",
+    "title": "Discount Code Not Working",
+    "description": "Attempting to apply 'SPRING26' code but receiving an 'invalid' error message.",
+    "customer": "Elena Rodriguez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03T11:20:00Z"
+  },
+  {
+    "id": "TKT-1007",
+    "title": "Group Booking Inquiry",
+    "description": "Requesting availability and pricing for a group of 25 passengers to D.C.",
+    "customer": "Westside High School",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03T13:40:00Z"
+  },
+  {
+    "id": "TKT-1008",
+    "title": "Payment Failure - Transaction #9921",
+    "description": "Credit card charged but no ticket issued. Customer needs manual validation.",
+    "customer": "Kevin Park",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T14:55:00Z"
+  },
+  {
+    "id": "TKT-1009",
+    "title": "Special Assistance Request",
+    "description": "Passenger requires wheelchair ramp access for the cross-country route.",
+    "customer": "Linda Grier",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-03-03T15:30:00Z"
+  },
+  {
+    "id": "TKT-1010",
+    "title": "Bus Delay Complaint",
+    "description": "Route 12 was 45 minutes late. Requesting a voucher for future travel.",
+    "customer": "Brian Smith",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03T16:12:00Z"
+  }
+]
